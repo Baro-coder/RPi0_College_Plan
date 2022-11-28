@@ -23,11 +23,10 @@ def config_init():
         GROUP = config['Web']['group']
         
         # Paths
-        global FILE_HTML, FILE_CSV, FILE_ERR
+        global FILE_HTML, FILE_CSV
         
         FILE_HTML = f"{APP_DIR}/{config['Paths']['file_html']}"
         FILE_CSV  = f"{APP_DIR}/{config['Paths']['file_csv']}"
-        FILE_ERR  = f"{APP_DIR}/{config['Paths']['file_err']}"
     
     except KeyError as e:
         sys.stderr.write('-- Config Key Error --')

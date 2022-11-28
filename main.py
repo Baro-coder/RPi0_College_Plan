@@ -6,7 +6,7 @@ import configparser as cfgp
 
 import functions as func
 
-APP_DIR = '/home/pi/.Private/College_Plan'
+APP_DIR = '/home/pi/.Private/RPi0_College_Plan'
 CONFIG_FILE = f'{APP_DIR}/config.ini'
 
 def config_init():

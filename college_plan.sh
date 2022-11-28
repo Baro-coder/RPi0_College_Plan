@@ -26,7 +26,7 @@ update(){
 start(){
     if [[ -f $MAIN_FILE ]]; then
         echo "Starting program..."
-        sudo python $MAIN_FILE
+        python $MAIN_FILE
         return 0
     else
         echo "$MAIN_FILE : The file does not exists!"
